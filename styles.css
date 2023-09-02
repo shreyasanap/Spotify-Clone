@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 body {
     background-color: beige;
@@ -11,7 +10,7 @@ body {
 }
 
 nav {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Open Sans",sans-serif;
 }
 
 nav ul {
@@ -21,7 +20,8 @@ nav ul {
     list-style-type: none;
     height: 65px;
     background-color: black;
-    color: white;
+    color:#DDDBCB;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -45,7 +45,7 @@ nav ul li {
     min-height: 70vh;
     background-color: black;
     color: azure;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Open Sans",sans-serif;
     display: flex;
     margin: 23px auto;
     width: 70%;
@@ -70,8 +70,9 @@ nav ul li {
 
 }
 
+
 .icons {
-    margin-top: 12px;
+    margin-top: 42px;
 }
 
 .icons i {
@@ -116,7 +117,14 @@ nav ul li {
 
 .songInfo {
     position: absolute;
-    left: 35vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 28px;
+    
+    font-family: "Open Sans",sans-serif;
 }
 
+.songInfo #masterSongName{
+    margin-left: 8px;
+    font-size:larger;
+    color:#DDDBCB;
+    font-weight: bold;
+}
